@@ -1,0 +1,1 @@
+streamlit run /home/tushar/Dev/Projects/diagnosis-of-chronic-diseases-using-machine-learning/main.py
