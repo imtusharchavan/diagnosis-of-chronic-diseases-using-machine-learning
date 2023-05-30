@@ -3,7 +3,7 @@ from sklearn.preprocessing import StandardScaler
 import pickle
 import streamlit as st
 
-loaded_model = pickle.load(open("parkinson's disease/trained_parkinsons_model.sav", 'rb'))
+loaded_model = pickle.load(open("models/parkinsons.sav.sav", 'rb'))
 
 def parkinsons(input_data):
     # changing input data to a numpy array
