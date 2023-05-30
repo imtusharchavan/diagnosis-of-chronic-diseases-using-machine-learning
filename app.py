@@ -3,9 +3,9 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 
-parkinsons_model = pickle.load(open('/home/tushar/Dev/Projects/diagnosis-of-chronic-diseases-using-machine-learning/models/parkinsons.sav', 'rb'))
-diabetes_model = pickle.load(open('/home/tushar/Dev/Projects/diagnosis-of-chronic-diseases-using-machine-learning/models/diabetes.sav', 'rb'))
-heart_disease_model = pickle.load(open('/home/tushar/Dev/Projects/diagnosis-of-chronic-diseases-using-machine-learning/models/heart.sav','rb'))
+parkinsons_model = pickle.load(open('../models/parkinsons.sav', 'rb'))
+diabetes_model = pickle.load(open('../models/diabetes.sav', 'rb'))
+heart_disease_model = pickle.load(open('../models/heart.sav','rb'))
 
 
 with st.sidebar:
